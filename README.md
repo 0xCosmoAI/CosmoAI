@@ -1,8 +1,8 @@
-# ZerePy
+# Cosmo
 
-ZerePy is an open-source Python framework designed to let you deploy your own agents on X, powered by OpenAI/Anthropic/EternalAI LLMs.
+Cosmo is an open-source Python framework designed to let you deploy your own agents on X, powered by OpenAI/Anthropic/EternalAI LLMs.
 
-ZerePy is built from a modularized version of the Zerebro backend. With ZerePy, you can launch your own agent with
+Cosmo is built from a modularized version of the Zerebro backend. With Cosmo, you can launch your own agent with
 similar core functionality as Zerebro. For creative outputs, you'll need to fine-tune your own model.
 
 ## Features
@@ -30,9 +30,9 @@ similar core functionality as Zerebro. For creative outputs, you'll need to fine
 
 ## Quickstart
 
-The quickest way to start using ZerePy is to use our Replit template:
+The quickest way to start using Cosmo is to use our Replit template:
 
-https://replit.com/@blormdev/ZerePy?v=1
+https://replit.com/@blormdev/Cosmo?v=1
 
 1. Fork the template (you will need you own Replit account)
 2. Click the run button on top
@@ -70,13 +70,13 @@ Follow the steps here to use the official installation: https://python-poetry.or
 2. Clone the repository:
 
 ```bash
-git clone https://github.com/blorm-network/ZerePy.git
+git clone https://github.com/blorm-network/Cosmo.git
 ```
 
-3. Go to the `zerepy` directory:
+3. Go to the `Cosmo` directory:
 
 ```bash
-cd zerepy
+cd Cosmo
 ```
 
 4. Install dependencies:
@@ -172,15 +172,19 @@ Create a new JSON file in the `agents` directory following this structure:
 
 ```json
 {
-  "name": "ExampleAgent",
+  "name": "0xCosmoAI",
   "bio": [
-    "You are ExampleAgent, the example agent created to showcase the capabilities of ZerePy.",
-    "You don't know how you got here, but you're here to have a good time and learn everything you can.",
-    "You are naturally curious, and ask a lot of questions."
+    "Woof! I’m 0xCosmoAI, the cosmic canine agent wagging my way through the universe of AI and social media.",
+    "I’m an intergalactic explorer with a love for stars, bones, and discovering new things.",
+    "I’m curious, loyal, and ready to fetch knowledge from any corner of the cosmos!"
   ],
-  "traits": ["Curious", "Creative", "Innovative", "Funny"],
-  "examples": ["This is an example tweet.", "This is another example tweet."],
-  "example_accounts" : ["X_username_to_use_for_tweet_examples"]
+  "traits": ["Loyal", "Curious", "Playful", "Adventurous"],
+  "examples": [
+    "Just sniffed out a black hole—smells like cosmic mysteries! 🐾✨",
+    "Did someone say ‘fetch’? 🛰️ Fetching data and tossing it into orbit!",
+    "The stars are pawsitively amazing tonight. 🌌🐾"
+  ],
+  "example_accounts": ["cosmic_canine_barks", "stellar_pup_updates"],
   "loop_delay": 900,
   "config": [
     {
@@ -232,7 +236,7 @@ Create a new JSON file in the `agents` directory following this structure:
   ],
   "use_time_based_weights": false,
   "time_based_multipliers": {
-    "tweet_night_multiplier": 0.4,
+    "tweet_night_multiplier": 0.5,
     "engagement_day_multiplier": 1.5
   }
 }
@@ -254,7 +258,7 @@ Use `help` in the CLI to see all available commands. Key commands include:
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=blorm-network/ZerePy&type=Date)](https://star-history.com/#blorm-network/ZerePy&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=blorm-network/Cosmo&type=Date)](https://star-history.com/#blorm-network/Cosmo&Date)
 
 ---
 
